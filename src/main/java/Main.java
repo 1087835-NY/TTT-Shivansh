@@ -26,11 +26,12 @@ For more in the future and more awesomer...
 4) You can make a new class for a game session as well as a single game
 5) You can make a new class for a turn, or a piece, or a screen painter
 */
-
+//Shivansh
 
 public class Main {
   public static void main(String[] args) {
-    new Player();
+    Player Bob = new Player("Bob");
     System.out.println("TTT - RAN WITHOUT ERRORS");
+    System.out.println(Bob.getName());
   }
 }
