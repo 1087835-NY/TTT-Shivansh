@@ -30,6 +30,8 @@ For more in the future and more awesomer...
 // TTT
 // 2/13/24
 
+import java.util.Arrays;
+
 public class Main {
   public static final String[][] board = {
       { "X", "X", "O", "X" },
@@ -41,6 +43,7 @@ public class Main {
     Player Bob = new Player("Bob");
     System.out.println("TTT - RAN WITHOUT ERRORS");
     System.out.println(Bob.getName());
+    System.out.println(Arrays.deepToString(board));
 
   }
 }
