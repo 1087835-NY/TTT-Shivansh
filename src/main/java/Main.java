@@ -27,11 +27,20 @@ For more in the future and more awesomer...
 5) You can make a new class for a turn, or a piece, or a screen painter
 */
 //Shivansh
+// TTT
+// 2/13/24
 
 public class Main {
+  public static final String[][] board = {
+      { "X", "X", "O", "X" },
+      { "X", "O", "X", "O" },
+      { "O", "X", "O", "X" },
+      { "O", "X", "O", "X" }
+  };
   public static void main(String[] args) {
     Player Bob = new Player("Bob");
     System.out.println("TTT - RAN WITHOUT ERRORS");
     System.out.println(Bob.getName());
+
   }
 }
