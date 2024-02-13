@@ -44,6 +44,11 @@ public class Main {
     System.out.println("TTT - RAN WITHOUT ERRORS");
     System.out.println(Bob.getName());
     System.out.println(Arrays.deepToString(board));
+    playGame();
 
+  }
+
+  public static void playGame(){
+    System.out.println("I work");
   }
 }
