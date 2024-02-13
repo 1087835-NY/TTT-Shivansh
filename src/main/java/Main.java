@@ -35,7 +35,7 @@ public class Main {
       { "X", "X", "O", "X" },
       { "X", "O", "X", "O" },
       { "O", "X", "O", "X" },
-      { "O", "X", "O", "X" }
+      { "O", "X", "O", "X" },
   };
   public static void main(String[] args) {
     Player Bob = new Player("Bob");
